@@ -1,0 +1,435 @@
+/* extra small  device */
+@media screen and (max-width:575px) {
+    /* nav bar */
+    nav .bar{
+        display: none;
+    }
+    nav .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    nav .navbar-toggler-icon{
+        color: #ffffff !important;
+        font-size: 14px;
+        position: relative;
+        border-bottom: 1px solid #ffffff;
+    }
+    nav .navbar-toggler-icon .i__p__abs{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+    }
+    nav ul{
+        background: #ffffff !important;
+        text-align: center;
+        padding: 25px 0;
+        border-radius: 15px;
+    }
+    nav ul .drop-menu-one{
+        display: none !important;
+    }
+    nav ul li .i-up,
+    nav ul li .i-down{
+        display: none;
+    }
+    nav ul li a{
+        color: #191919 !important;
+    }
+    nav ul li a:hover{
+        color: #974645 !important;
+        box-shadow: none;
+
+    }
+    /* banner part */
+    #banner-part .banner-text h2{
+        font-size: 38px;
+    }
+    #banner-part .banner-text h3{
+        font-size: 16px;
+    }
+    #banner-part .banner-text h3 span{
+        padding: 4px 0;
+    }
+    #banner-part .banner-text h3 .web{
+        font-size: 40px;
+    }
+    #banner-part .banner-text h3 .web2{
+        color: #ff0000;
+    }
+    #banner-part .button a{
+        font-size: 12px;
+    }
+    .banner-img{
+        display: none;
+    }
+    .banner-icon a{
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+    }
+    /* about part */
+    #about-part h4{
+        font-size: 24px;
+    }
+    #about-part h6{
+        padding-top: 80px;
+    }
+    #about-part p {
+        font-size: 14px;
+        padding-top: 15px;
+        width: 300px;
+        text-align: justify;
+    }    
+    #about-part .about-img{
+        margin-top: 40px;
+    }
+    #about-part .flex{
+        flex-wrap: wrap;
+    }
+    #about-part .about-details ul{
+        width: 100%;
+    }
+    #about-part .about-details ul li{
+        font-size: 10px;
+    }
+    #about-part .about-details .ul-brdr::after {
+        display: none;
+    }
+    /* portfolio part */
+    #portfolio-part .port{
+        width: 100%;
+    }
+    #portfolio-part .port-title h2{
+        font-size: 40px;
+    }
+    #portfolio-part .port-title ul{
+        padding: 30px 0 50px 0;
+    }
+    #portfolio-part .port-title ul li{
+        padding: 10px;
+        margin: 10px;
+        font-size: 12px;
+        background: #191919;
+    }
+    /* experience part */
+    .experience-text h3{
+        font-size: 32px;
+    }
+    #experince-part .title h2 {   
+        font-size: 40px;  
+        top: 59px;
+        left: 10px;
+    }
+    .experience-text p{
+        width: 300px;
+        font-size: 14px;
+    }
+    /* skill part */
+    .skill-text h5{
+        font-size: 20px;
+    }
+    #skill-part .title h2 {
+        font-size: 47px;
+        top: 51px;
+        left: 4%;
+    }
+    .skill-text p{
+        width: 300px;
+        font-size: 14px;
+    }
+    .skill-button{
+        /* bottom: -25px; */
+        display: flex;
+    }
+    .skill-button a{
+        width: 120px;
+        font-size: 14px;
+    }
+    /* testimonial part */
+    #testimonial-part .testimonial-ovarlay .title h2{
+        font-size: 32px;
+        top: -18px;
+    }
+    #testimonial-part .testimonial-ovarlay .title{
+        padding-bottom: 80px;
+    }
+    #testimonial-part .testimonial-ovarlay h5{
+        font-size: 28px;
+    }
+    .testimonial-slider .prev{
+        left: 32%;
+    }
+    .testimonial-slider .next{
+        right: 32%;
+    }
+    .testimonial-images{
+        width: 140px;
+        height: 140px;
+        margin-left: 78px;
+        margin-top: 25px;
+    }
+}
+
+/* small device */
+@media (min-width:576px) and (max-width:768px) {
+    /* nav bar */
+    nav .bar{
+        display: none;
+    }
+    nav .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    nav .navbar-toggler-icon{
+        color: #ffffff !important;
+        font-size: 16px;
+        position: relative;
+        border-bottom: 1px solid #ffffff;
+    }
+    nav .navbar-toggler-icon .i__p__abs{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+    }
+    nav ul{
+        background: #ffffff !important;
+        text-align: center;
+        padding: 25px 0;
+        border-radius: 15px;
+    }
+    nav ul .drop-menu-one{
+        display: none !important;
+    }
+    nav ul li .i-up,
+    nav ul li .i-down{
+        display: none;
+    }
+    nav ul li a{
+        color: #191919 !important;
+    }
+    nav ul li a:hover{
+        color: #974645 !important;
+        box-shadow: none;
+
+    }
+    /* banner part */
+    #banner-part .banner-text h2{
+        font-size: 44px;
+    }
+    #banner-part .banner-text h3{
+        font-size: 24px;
+    }
+    #banner-part .banner-text h3 span{
+        padding: 4px 0;
+    }
+    #banner-part .banner-text h3 .web{
+        font-size: 68px;
+    }
+    #banner-part .banner-text h3 .web2{
+        color: #ff0000;
+    }
+    #banner-part .button a{
+        font-size: 14px;
+    }
+    .banner-img{
+        display: none;
+    }
+    .banner-icon a{
+        font-size: 14px;
+        width: 25px;
+        height: 25px;
+    }
+    /* about part */
+    #about-part h4{
+        font-size: 24px;
+    }
+    #about-part h6{
+        padding-top: 80px;
+    }
+    #about-part p {
+        font-size: 14px;
+        padding-top: 15px;
+        width:500px;
+        text-align: justify;
+    }    
+    #about-part .about-img{
+        margin-top: 40px;
+    }
+    #about-part .flex{
+        flex-wrap: wrap;
+    }
+    #about-part .about-details ul{
+        width: 100%;
+    }
+    #about-part .about-details ul li{
+        font-size: 16px;
+    }
+    #about-part .about-details .ul-brdr::after {
+        display: none;
+    }
+    /* portfolio part */
+    #portfolio-part .port{
+        width:46%;
+    }
+    #portfolio-part .port-title h2{
+        font-size: 40px;
+    }
+    #portfolio-part .port-title ul{
+        padding: 30px 0 50px 0;
+    }
+    #portfolio-part .port-title ul li{
+        padding: 10px;
+        margin: 10px;
+        font-size: 14px;
+        background: #191919;
+    }
+    /* experience part */
+    .experience-text h3{
+        font-size: 38px;
+    }
+    #experince-part .title h2 {
+        font-size: 48px;
+        top: 73px;
+        left: 60px;
+    }
+    .experience-text p{
+        width: 500px;
+        font-size: 14px;
+    }
+    /* skill part */
+    .skill-text h5{
+        font-size: 24px;
+    }
+    #skill-part .title h2 {
+        font-size: 47px;
+        top: 51px;
+    }
+    .skill-text p{
+        width: 500px;
+        font-size: 14px;
+    }
+    .skill-button{
+        /* bottom: -25px; */
+        display: flex;
+    }
+
+    /* testimonial part */
+    #testimonial-part .testimonial-ovarlay .title h2{
+        font-size: 32px;
+        top: -18px;
+    }
+    #testimonial-part .testimonial-ovarlay .title{
+        padding-bottom: 120px;
+    }
+    #testimonial-part .testimonial-ovarlay h5{
+        font-size: 32px;
+    }
+    .testimonial-slider .prev{
+        left: 42%;
+    }
+    .testimonial-slider .next{
+        right: 42%;
+    }
+    .testimonial-images {
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+}
+
+/* medium device */
+@media (min-width:769px) and (max-width:991px) {
+    /* nav bar */
+    nav .bar{
+        display: none;
+    }
+    nav .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    nav .navbar-toggler-icon{
+        color: #ffffff !important;
+        font-size: 16px;
+        position: relative;
+        border-bottom: 1px solid #ffffff;
+    }
+    nav .navbar-toggler-icon .i__p__abs{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+    }
+    nav ul{
+        background: #ffffff !important;
+        text-align: center;
+        padding: 25px 0;
+        border-radius: 15px;
+    }
+    nav ul .drop-menu-one{
+        display: none !important;
+    }
+    nav ul li .i-up,
+    nav ul li .i-down{
+        display: none;
+    }
+    nav ul li a{
+        color: #191919 !important;
+    }
+    nav ul li a:hover{
+        color: #974645 !important;
+        box-shadow: none;
+
+    }
+    #banner-part .banner-text h3 .web{
+        font-size: 64px;
+    }
+    .banner-img {
+        margin-left: 100px !important;
+        margin-top: 150px;
+    }
+       /* about part */
+       #about-part h4{
+        font-size: 24px;
+    }
+    #about-part h6{
+        padding-top: 80px;
+    }
+    #about-part p {
+        font-size: 14px;
+        padding-top: 15px;
+        width:500px;
+        text-align: justify;
+    }    
+    #about-part .about-img{
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+    #about-part .flex{
+        flex-wrap: wrap;
+    }
+    #about-part .about-details ul{
+        width: 100%;
+    }
+    #about-part .about-details ul li{
+        font-size: 16px;
+    }
+    #about-part .about-details .ul-brdr::after {
+        display: none;
+    }
+    #portfolio-part .port{
+        width:32%;
+    }
+    /* skill part */
+    .liner-pgrs{
+        margin-top: 25px;
+    }
+    /* testimonial part */
+    .testimonial-images img{
+        margin-top: 80px;
+    }
+}
